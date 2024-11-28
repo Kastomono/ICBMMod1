@@ -1,0 +1,56 @@
+USE PREVIOUS "Units/units.txt"
+
+// ADD EXISTING UNIT , OR CREATE A NEW ONE. ANY NEW TECH/RADAR/MISSILE/ICON/ETC WILL NEED TO BE ADDED TO OTHER .TXT FILES IN THEIR CORRECT FOLDERS AND TO NAME A NEW UNIT PROPERLY A NEW TECH ENTRY AND LANG FILE ENTRY WILL NE NEEDED //
+
+[UNIT] "Fighter"
+Tech "U_Fighter"
+Movie "Units/Images/Airborne/Topdown/Fighter_1.midx"
+AbstractMovie "Units/Images/Airborne/Abstract/Fighter.midx"
+MaxElevation 20
+Model "Units/Images/AIRBORNE/1st Gen Fighter.MIDX"
+Icon "Units/Images/Icons/Airborne/Fighter_1.png"
+LaunchMePathIcon element "path/launch fighter"
+IconIDX 52
+DrawSize 14
+AbstractDrawSize 18
+LaunchMeSound 83
+Size 0.05
+Sound 134 Volume 0.3
+Type Airborne
+NoAutoDeploy
+Slave
+AutoReturn Yes
+Speed 700 // in km per h
+TurnSpeed 9 // in angles per second
+////////Range inflated, but absolutely awful if it's not//////////////////////////
+Range 2400 // in km. Higher than multirole to simulate lighter takeoff weight, also emphasises defence
+MaxAutoEngageRange 1200
+Power 0.65
+Config "Air-To-Air" Default
+Weapon "AAM" 2 Launch 1 Time 120 AutoEngage
+Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+Radar "STD Vision Air"
+Radar "Air Vision"
+//Didn't have radar this early on
+ProductionCost 0.01
+DoesNotTriggerWarWhenAttacked Yes
+Crash "std_bomb"
+
+Modifier "EMP_Killable"
+ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+Modifier "EMP_Defence_Mod_1"
+Modifier "EMP_Defence_Mod_2"
+
+Modifier "Aircraft_Stealth_Bonus_Modifier_1"  ///F-22A
+Modifier "Aircraft_Stealth_Bonus_Modifier_2"  ////NGAD\
+
+Modifier "ECM_Bonus_1"
+Modifier "ECM_Bonus_2"
+Modifier "ECM_Bonus_3"
+Modifier "ECM_Bonus_4"
+ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+ImprovedBy "Electronic_Counters_Mk4" Size 0.99
+
+[END]

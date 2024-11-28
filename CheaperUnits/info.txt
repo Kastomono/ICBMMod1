@@ -1,0 +1,7 @@
+ICBM MOD "Cheaper Units Personal"
+
+Version "1.0.2"
+
+Description "Lowers cost of many units"
+
+ChangeLog "1"
