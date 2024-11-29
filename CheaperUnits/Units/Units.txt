@@ -31,11 +31,11 @@ Modifier "EMP_Long_Stun_Modifier"
 
 ////////////Production Stuff/////////////////
 
-  ImprovedBy "Defence_Planning" Production 1.10
-  ImprovedBy "Production_Booster_1" Production 1.20
-  ImprovedBy "Production_Booster_2" Production 1.20
-  ImprovedBy "Production_Booster_3" Production 1.20
-  ImprovedBy "Production_Booster_4" Production 1.20 
+  ImprovedBy "Defence_Planning" Production 1.15
+  ImprovedBy "Production_Booster_1" Production 1.25
+  ImprovedBy "Production_Booster_2" Production 1.25
+  ImprovedBy "Production_Booster_3" Production 1.25
+  ImprovedBy "Production_Booster_4" Production 1.25 
 
 
 ///////////Science Stuff/////////////
