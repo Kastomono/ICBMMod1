@@ -32,10 +32,10 @@ Modifier "EMP_Long_Stun_Modifier"
 ////////////Production Stuff/////////////////
 
   ImprovedBy "Defence_Planning" Production 1.15
-  ImprovedBy "Production_Booster_1" Production 1.25
-  ImprovedBy "Production_Booster_2" Production 1.25
-  ImprovedBy "Production_Booster_3" Production 1.25
-  ImprovedBy "Production_Booster_4" Production 1.25 
+  ImprovedBy "Production_Booster_1" Production 1.20
+  ImprovedBy "Production_Booster_2" Production 1.20
+  ImprovedBy "Production_Booster_3" Production 1.20
+  ImprovedBy "Production_Booster_4" Production 1.20 
 
 
 ///////////Science Stuff/////////////
@@ -1133,7 +1133,7 @@ Modifier "DEFCON_1"
   CanAccessGlobalStorage
   Radar "STD Vision"
   Radar "STD Long Wave"
-  ProductionCost 8.0
+  ProductionCost 12.0
   NoAutoAttack
   
   	Modifier "BM_Accuracy_Damage_Penalty" 
@@ -1174,7 +1174,7 @@ Modifier "DEFCON_1"
   CanAccessGlobalStorage
   Radar "STD Vision"
   Radar "STD Long Wave"
-  ProductionCost 6.0
+  ProductionCost 10.0
   NoAutoAttack
   
   	Modifier "BM_Accuracy_Damage_Penalty" 
@@ -1213,7 +1213,7 @@ Modifier "DEFCON_1"
   ReportAsHosted Yes
 
   Radar "STD Vision"
-  ProductionCost 4.0
+  ProductionCost 6.0
   NoAutoAttack  
 
 
@@ -1249,7 +1249,7 @@ Modifier "DEFCON_1"
   CanAccessGlobalStorage
   Radar "STD Vision"
   Radar "STD Long Wave"
-  ProductionCost 9.0
+  ProductionCost 13.0
   NoAutoAttack
   
   	Modifier "BM_Accuracy_Damage_Penalty" 
@@ -1314,7 +1314,7 @@ Modifier "DEFCON_1"
   SelfDestructTime 10
   Radar "STD Vision"
   Radar "Over_Horizon"
-  ProductionCost 20
+  ProductionCost 24
 //  ImprovedBy "Over_horizon_radar_Mk2" Movie "Units/Images/Ground/over_horizon Mk2.midx"
 
 	Modifier "BM_Accuracy_Damage_Penalty" 
@@ -1351,7 +1351,7 @@ Modifier "DEFCON_1"
   //Weapon "AA Laser" 20000 Launch 1 Time 5 AutoEngage
     Radar "STD Vision"
   Radar "STD Short Wave"
-  ProductionCost 3.5
+  ProductionCost 4
   ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Launch 2
   ImprovedBy "SAM_Mk2" Modify Weapon "SAM MD" Set Launch 2  
   ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Time 35
@@ -1433,7 +1433,7 @@ Config "Fusion ABM"
   Radar "STD Short Wave"
   //CheckCoverage "ABM" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
   //CheckCoverage "Nuclear ABM" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
-  ProductionCost 7.0
+  ProductionCost 8.0
 
 	Modifier "ABM_Mk2_Modifier"
     
@@ -1484,7 +1484,7 @@ Config "Fusion ABM"
     Radar "STD Vision"
   Radar "STD Short Wave"
 
-  ProductionCost 5.0
+  ProductionCost 6.0
   
     ImprovedBy "SAM_Mk2"
   {
@@ -1557,7 +1557,7 @@ Config "Fusion ABM"
   	Movie Model "Units/Images/Ground/Mobile ABM Site.midx"
   }
   
-  ProductionCost 6.0
+  ProductionCost 7.0
 
 	Modifier "BM_Accuracy_Damage_Penalty" 
 
