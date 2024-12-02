@@ -1,0 +1,7 @@
+USE PREVIOUS "tech.txt"
+
+  [TECHNOLOGY] "GDP_MOD"
+  Name "GDP_MOD"
+  Description "GDP_MOD"
+  
+[END]

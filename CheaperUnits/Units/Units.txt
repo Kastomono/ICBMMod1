@@ -104,6 +104,11 @@ Modifier "DEFCON_1"
  ImprovedBy "DEFCON_1" Production 0.50
  ImprovedBy "DEFCON_1" Science 0.10
  ImprovedBy "DEFCON_1" Espionage 0.10
+
+
+////////////////////////////////GDP////////////////////////////////
+
+ ImprovedBy "GDP_MOD" Production 2.00
  
  
 ///////////////////////////////////Okay actual units now/////////////////////////////// 
