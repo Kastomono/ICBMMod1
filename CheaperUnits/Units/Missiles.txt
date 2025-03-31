@@ -1,0 +1,266 @@
+USE PREVIOUS "Units/missiles.txt"
+
+//Price Increase for most nukes due to economy rebalance//
+
+//TACTICAL WEAPONS//
+
+//NUCLEAR ANTI-AIR MISSILE//
+[MISSILE] "Nuclear AAM" MODIFY
+    ProductionCost 1
+
+//FUSION ANTI-AIR MISSILE//
+[MISSILE] "Fusion AAM" MODIFY
+    ProductionCost 1
+
+//NUCLEAR SAM//
+[MISSILE] "Nuclear SAM" MODIFY
+    ProductionCost 1
+
+//FUSION SAM//
+[MISSILE] "Fusion SAM" MODIFY
+    ProductionCost 1
+
+//NUCLEAR ASAT//
+[MISSILE] "Nuclear ASAT" MODIFY
+    ProductionCost 3
+
+//STANDARD ASAT//
+[MISSILE] "ASAT" MODIFY
+    ProductionCost 2
+
+//AIRCRAFT ASAT//
+[MISSILE] "Aircraft ASAT" MODIFY
+    ProductionCost 2
+
+//CO-ORBITAL ASAT//
+[MISSILE] "Co-Orbital ASAT" MODIFY
+    ProductionCost 4
+
+//GRAVITY BOMBS//
+//HEAVY NUCLEAR BOMBS//
+
+//HEAVY 500KT NUKE//
+[MISSILE] "500kt nuke_heavy" MODIFY
+    ProductionCost 4
+    //Cheaper than other nukes//
+
+//HEAVY 10M NUKE//
+[MISSILE] "10M nuke_heavy" MODIFY
+    ProductionCost 8
+
+//HEAVY 25M NUKE//
+[MISSILE] "25M nuke_heavy" MODIFY
+    ProductionCost 8
+
+//HEAVY 50M NUKE//
+[MISSILE] "50M nuke_heavy" MODIFY
+    ProductionCost 8
+
+//HEAVY 100M NUKE//
+[MISSILE] "100M nuke_heavy" MODIFY
+    ProductionCost 8
+
+//LIGHT NUCLEAR BOMBS//
+
+//LIGHT 100KT NUKE//
+[MISSILE] "100kt_nuke_light" MODIFY
+    ProductionCost 1
+    //Cheaper than other nukes//
+
+//LIGHT 250KT NUKE//
+[MISSILE] "250kt_nuke_light" MODIFY
+    ProductionCost 3
+
+//LIGHT 500KT NUKE//
+[MISSILE] "500kt nuke_light" MODIFY
+    ProductionCost 3
+
+//LIGHT 1M NUKE//
+[MISSILE] "1M nuke_light" MODIFY
+    ProductionCost 3
+
+//LIGHT 5M NUKE//
+[MISSILE] "5M nuke_light" MODIFY
+    ProductionCost 3
+
+//COBALT AND SALTED//
+
+//HEAVY COBALT BOMB//
+[MISSILE] "Cobalt_Bomb" MODIFY
+    ProductionCost 10
+
+//HEAVY SALTED BOMB//
+[MISSILE] "Salted_Bomb" MODIFY
+    ProductionCost 10
+
+//LIGHT COBALT BOMB//
+[MISSILE] "500kt Light Cobalt Bomb" MODIFY
+    ProductionCost 6
+
+//LIGHT SALTED BOMB//
+[MISSILE] "500kt Light Salt Bomb" MODIFY
+    ProductionCost 6
+
+//MRBM//
+//UNITARY//
+
+//100KT MRBM//
+[MISSILE] "100kt_MRBM" MODIFY
+    ProductionCost 3
+
+//250KT MRBM//
+[MISSILE] "250kt_MRBM" MODIFY
+    ProductionCost 5
+
+//500KT MRBM//
+[MISSILE] "500kt_MRBM" MODIFY
+    ProductionCost 5
+
+//1M MRBM//
+[MISSILE] "1M_MRBM" MODIFY
+    ProductionCost 5
+
+//5M MRBM//
+[MISSILE] "5M_MRBM" MODIFY
+    ProductionCost 5
+
+//MIRV//
+
+//3x100KT MIRV MRBM//
+[MISSILE] "3x100kt_MRBM" MODIFY
+    ProductionCost 10
+
+//3x250KT MIRV MRBM//
+[MISSILE] "3x250kt_MRBM" MODIFY
+    ProductionCost 10
+
+//6x250KT MIRV MRBM//
+[MISSILE] "6x250kt_MRBM" MODIFY
+    ProductionCost 10
+
+//6x500KT MIRV MRBM//
+[MISSILE] "6x500kt_MRBM" MODIFY
+    ProductionCost 10
+
+//8x500KT MIRV MRBM//
+[MISSILE] "8x500kt_MRBM" MODIFY
+    ProductionCost 10
+
+//8x1M MIRV MRBM//
+[MISSILE] "8x1MT_MRBM" MODIFY
+    ProductionCost 10
+
+//COBALT AND SALTED//
+
+//500KT COBALT MRBM//
+[MISSILE] "500kt_Cobalt_MRBM" MODIFY
+    ProductionCost 6
+
+//500KT SALTED MRBM//
+[MISSILE] "500kt_Salt_MRBM" MODIFY
+    ProductionCost 6
+
+//ICBM//
+//UNITARY//
+
+//LIGHT 250KT ICBM//
+[MISSILE] "ICBM (250kt Light)" MODIFY
+    ProductionCost 4
+
+//LIGHT 500KT ICBM//
+[MISSILE] "ICBM (500kt Light)" MODIFY
+    ProductionCost 6
+
+//LIGHT 1M ICBM//
+[MISSILE] "ICBM (1M Light)" MODIFY
+    ProductionCost 6
+
+//LIGHT 5M ICBM//
+[MISSILE] "ICBM (5M Light)" MODIFY
+    ProductionCost 6
+
+//LIGHT 10M FUSION ICBM//
+[MISSILE] "ICBM (10M Fusion Light)" MODIFY
+    ProductionCost 6
+
+//HEAVY 500KT ICBM//
+[MISSILE] "ICBM (500kt Heavy)" MODIFY
+    ProductionCost 8
+
+//HEAVY 5M ICBM//
+[MISSILE] "ICBM (5M Heavy)" MODIFY
+    ProductionCost 10
+
+//HEAVY 10M ICBM//
+[MISSILE] "ICBM (10M)" MODIFY
+    ProductionCost 10
+
+//HEAVY 25M ICBM//
+[MISSILE] "ICBM (25M)" MODIFY
+    ProductionCost 10
+
+//HEAVY 50M FUSION ICBM//
+[MISSILE] "ICBM (50M Fusion)" MODIFY
+    ProductionCost 10
+
+//COBALT AND SALTED//
+
+//LIGHT 1M COBALT ICBM//
+[MISSILE] "ICBM (1M Cobalt)" MODIFY
+    ProductionCost 8
+
+//LIGHT 1M SALTED ICBM//
+[MISSILE] "ICBM (1M Salt)" MODIFY
+    ProductionCost 8
+
+//HEAVY 10M COBALT ICBM//
+[MISSILE] "ICBM (10M Cobalt)" MODIFY
+    ProductionCost 14
+
+//HEAVT 10M SALTED ICBM//
+[MISSILE] "ICBM (10M Salt)" MODIFY
+    ProductionCost 14
+
+//MIRV//
+
+//HEAVY 3x250KT MIRV ICBM//
+[MISSILE] "3x250kt ICBM" MODIFY
+    ProductionCost 16
+
+//HEAVT 3x500KT MIRV ICBM//
+[MISSILE] "3x500kt ICBM" MODIFY
+    ProductionCost 16
+
+//HEAVY 6x500KT MIRV ICBM//
+[MISSILE] "6x500kt ICBM" MODIFY
+    ProductionCost 16
+
+//HEAVY 6x1M MIRV ICBM//
+[MISSILE] "6x1M ICBM" MODIFY
+    ProductionCost 16
+
+//HEAVY 12x500KT MIRV ICBM//
+[MISSILE] "12x500kt ICBM" MODIFY
+    ProductionCost 16
+
+//HEAVY 12x1M MIRV ICBM//
+[MISSILE] "12x1M ICBM" MODIFY
+    ProductionCost 16
+
+//LIGHT 3x250KT MIRV ICBM//
+[MISSILE] "3x250kt Light ICBM" MODIFY
+    ProductionCost 10
+
+//LIGHT 3x500KT MIRV ICBM//
+[MISSILE] "3x500kt Light ICBM" MODIFY
+    ProductionCost 10
+
+//LIGHT 8x500KT MIRV ICBM//
+[MISSILE] "8x500kt Light ICBM" MODIFY
+    ProductionCost 10
+
+//LIGHT 8x1M MIRV ICBM//
+[MISSILE] "8x1M Light ICBM" MODIFY
+    ProductionCost 10
+
+[END]

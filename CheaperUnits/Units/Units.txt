@@ -212,4 +212,5 @@ Modifier "DEFCON_1"
 //ARMY DIVISION//
 [UNIT] "Army_Division" MODIFY
   ProductionCost 10
+
 [END]
